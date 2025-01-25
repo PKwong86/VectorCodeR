@@ -171,8 +171,7 @@ CAV <- function(df) {
     }
   }
   return(bar_CA)
+  ts.plot(CAV(df))
 }
 
-# df <- sample
-# CAV(df)
-# ts.plot(CAV(df))
+
